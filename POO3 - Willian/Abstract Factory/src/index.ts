@@ -2,7 +2,7 @@ import Client from "./clients/Client";
 import NineNineFactory from "./factories/NineNineFactory";
 import UberFactory from "./factories/UberFactory";
 import ITransportFactory from "./factories/interfaces/ITransportFactory";
-import company from "./vehicles/consts/company";
+import company from "./vehicles/consts/Company";
 
 const currentCompany = company.UBER;
 let factory! : ITransportFactory;
